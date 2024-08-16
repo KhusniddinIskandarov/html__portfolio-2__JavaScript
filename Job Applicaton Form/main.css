@@ -1,0 +1,610 @@
+/* core styles*/
+body {
+    font-family: sans-serif;
+    height: 3100px;
+}
+
+li {
+    list-style: none;
+    padding: 0 2rem;
+}
+
+
+/*Job Application*/
+.birinchi {
+    margin-bottom: 2rem;
+}
+
+
+/*Full Name*/
+.ikkinchi {
+    margin-top: 2.5rem;
+}
+
+.qizil {
+    color: red;
+}
+
+.FullName {
+    margin-bottom: 1rem;
+}
+
+.goooler {
+    display: flex;
+}
+
+.bollerol input {
+    height: 7vh;
+    width: 26vw;
+    margin-right: 0.5rem;    
+}
+
+.bollerol input:hover {
+    border-color: rgba(46, 105, 255, .5);
+    box-shadow: 0 0 0 2px rgba(46, 105, 255, .25);
+}
+
+.bollerol div {
+    margin-top: 0.5rem;
+}
+
+
+/*Body Size*/
+.uchinchi {
+    margin-top: 3.5rem;
+}
+
+.body-label {
+    margin-bottom: 1rem;
+}
+
+.group-body__size {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-size input {
+    height: 7vh;
+    width: 37.5vw;
+    margin-right: 1.5rem;
+    padding-left: 10px;
+}
+
+.body-size div {
+    margin-top: 0.5rem;
+}
+
+.body-size:hover input {
+    border-color: rgba(46, 105, 255, .5);
+    box-shadow: 0 0 0 2px rgba(46, 105, 255, .25);
+    font-size: 15px;
+}
+
+
+/*Birth Date*/
+.tortinchi { 
+    margin-top: 3.5rem;
+}
+
+.label-birthdate {
+    margin-bottom: 1rem;
+}
+
+.month,
+.day,
+.year {
+    display: inline-block;
+}
+
+.month select,
+.day select,
+.year select {
+    height: 7vh;
+    width: 25vw;
+    margin-right: 0.5rem;
+}
+
+.year select{
+    margin-right: 0;
+}
+
+
+.month div,
+.day div,
+.year div {
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.month:hover select,
+.day:hover select,
+.year:hover select {
+    border-color: #2e69ff;
+    box-shadow: 0 0 0 3px rgba(46, 105, 255, .25);
+}
+
+
+/*Family Status*/
+.beshinchi {
+    margin-top: 3.5rem;
+}
+
+.familystatus {
+    margin-bottom: 1.5rem;
+}
+
+.FamilyStatus > div {
+    margin-bottom: 0.75rem;
+}
+
+.FamilyStatus > div:hover input {
+    cursor: pointer;
+    border-color: #2e69ff;
+    box-shadow: 0 0 0 3px rgba(46, 105, 255, .25);
+}
+
+
+/*Current Address*/
+.oltinchi {
+    margin-top: 3.5rem;
+}
+
+.currentaddress {
+    margin-bottom: 1rem;
+}
+
+.streetaddress input,
+.streetaddressLine2 input{
+    width: 83vw;
+    height: 6vh;
+}
+
+.streetaddress:hover input,
+.streetaddressLine2:hover input,
+.city-stateProvince > div:hover input,
+.positalZipCode:hover input {
+    border-color: rgba(46, 105, 255, .5);
+    box-shadow: 0 0 0 2px rgba(46, 105, 255, .25);
+}
+.streetaddress-label,
+.streetaddressLine2-label {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.city-stateProvince  {
+    display: flex;
+    justify-content: start;
+}
+
+.city-stateProvince > div input {
+    width: 38.7vw;
+    height: 6vh;
+}
+
+.city input {
+    margin-right: 1.5rem;
+}
+
+.city div,
+.stateProvince div {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+} 
+
+.positalZipCode input {
+    width: 83vw;
+    height: 6vh;
+}
+
+.positalZipCode div {
+    margin-top: 0.5rem;
+}
+
+
+/*Email Address Phone Number*/
+.yettinchi {
+    margin-top: 3.5rem;
+}
+.yettinchi > div,
+.EmailAddress-PhoneNumber,
+.areacode-phonenumber {
+    display: flex;
+}
+
+.EmailAddress input,
+.areacode input,
+.PhoneNumber input {
+    height: 6vh;
+}
+
+.EmailAddress input {
+    width: 36vw;
+}
+
+.areacode input {
+    width: 9vw;
+}
+
+.PhoneNumber input {
+    width: 26vw;
+}
+
+.EmailAddress-label,
+.phonenumber {
+    margin-bottom: 1rem;
+}
+
+.EmailAddress-PhoneNumber {
+    margin-right: 1.25rem;
+}
+
+.areacode {
+    margin-right: 0.5rem;
+}
+
+.EmailAddress input,
+.areacode input,
+.PhoneNumber input {
+    padding-left: 0.625rem;
+}
+
+.example label,
+.Area-Code label,
+.Phone-Numbe label {
+    font-size: 0.75rem;
+}
+
+.EmailAddress:hover input,
+.areacode:hover input,
+.PhoneNumber:hover input {
+    border-color: rgba(46, 105, 255, .5);
+    box-shadow: 0 0 0 2px rgba(46, 105, 255, .25);
+    font-size: 0.90rem;
+}
+
+
+/*LinkedIn Experience*/
+.sakkizinchi {
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.quti {
+    display: flex;
+}
+
+.quti > div input {
+    height: 6vh;
+}
+
+.linkedin-quti input {
+    margin-right: 1rem;
+    width: 35vw;
+}
+
+.input-button__quti {
+    display: flex;
+    width: 35vw;
+    border: 1px solid #797979;
+}
+
+.input-button__quti  input {
+    width: 24vw;
+    border-style: none;
+    text-align: center;
+}
+
+.linkedin, .experience {
+    margin-bottom: 0.5rem;
+}
+
+.button1, .button2 {
+    height: 7vh;
+    width: 5.5vw;
+    border-style: none;
+    background-color: #F4F4F7;
+}
+
+.button1 {
+    position: relative;   
+}
+
+.linkedin-quti:hover input,
+.input-button__quti:hover {
+    border-color: rgba(46, 105, 255, .5);
+    box-shadow: 0 0 0 2px rgba(46, 105, 255, .25);
+}
+
+
+/* Position Applied How did you hear about us */
+.toqqizinchi {
+    margin-top: 3.5rem;
+}
+
+.toqqizinchi > div {
+    display: flex;
+}
+
+.label-select label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.label-select select {
+    height: 7vh;
+    width: 35vw;
+}
+
+.label-select:hover select {
+    border-color: rgba(46, 105, 255, .5);
+    box-shadow: 0 0 0 3px rgba(46, 105, 255, .25);
+}
+
+
+/* Available Start Date */
+.oninchi {
+    margin-top: 3.5rem;
+}
+
+.available-label__input div {
+    margin-bottom: 0.5rem;
+}
+
+.available-label__input input {
+    height: 7vh;
+    width: 35vw;
+}
+
+.available-label__input:hover input {
+    border-color: rgba(46, 105, 255, .5);
+    box-shadow: 0 0 0 2px rgba(46, 105, 255, .25);
+}
+
+
+/* Computer Skills */
+.onbirinchi {
+    margin-top: 3.5rem;
+}
+
+.table-tag {
+    border-collapse: collapse;
+}
+
+.th-active {
+    border: none;
+    background-color: white;
+    visibility: hidden;
+}
+
+th, td {
+    border: 1px solid #797979;  
+    height: 45px;
+    width: 130px;
+}
+
+th {
+    background-color: #E5EAF4;
+    font-weight: 500;
+}
+
+td {
+    text-align: center;
+}
+
+.onbirinchi thead th {
+    text-align: center;
+}
+
+.onbirinchi tbody th {
+    padding-left: 10px;
+}
+
+.form-control__group {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    cursor: pointer;
+}
+
+.form-control__group input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-radio__span {  
+    height: 24px;
+    width: 24px;
+    border: 1px solid #797979;
+    border-radius: 50%;
+}
+
+.form-control__group:hover input ~ .custom-radio__span {
+    border-color: #2e69ff;
+    box-shadow: 0 0 0 3px rgba(46, 105, 255, .25);
+}
+
+.form-control__group input:checked ~ .custom-radio__span {
+    background-color: #2e69ff;   
+}
+
+.custom-radio__span:after {
+    top: 8px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    content: "";
+}
+
+.form-control__group input:checked ~ .custom-radio__span:after {
+    display: inline-block;
+} 
+
+
+/* Ability knowing English Language */
+.on-ikkinchi {
+    margin-top: 3.5rem;
+}
+
+.on-ikkinchi h2 {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.worst-Best {
+    display: flex;
+    justify-content: start;
+}
+
+.form-control {
+    margin-right: 20px;
+}
+
+.custom-radio {
+    border: 2px solid #ddd;
+    padding: 12px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.custom-radio:hover {
+    background-color: #f3f3fe;
+}
+
+.form-control input:checked ~ .custom-radio {
+    background-color: #2e69ff;
+    color: white;
+}
+
+.form-control input {
+    display: none;
+}
+
+.form-control p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Applicant Document(Diploma, Certificate) */
+.on-uchinchi {
+    margin-top: 3.5rem;
+}
+
+.on-uchinchi > h2 {
+    font-weight: 500;
+    font-size: 18px;
+} 
+
+.on-uchinchi > div {
+    height: 26vh;
+    width: 100%;
+    border: 1px solid #797979;
+    text-align: center;
+} 
+
+.on-uchinchi i {
+    font-size: 30px;
+    color: #B3BCCD;
+    margin-top: 15px;
+}
+
+.on-uchinchi h4 {
+    font-size: 18px;
+    opacity: 0.75;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.on-uchinchi p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #57647E;
+}
+
+
+/* Upload Your Resume */
+.on-tortinchi {
+    margin-top: 3.5rem;
+}
+
+.on-tortinchi > h2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.on-tortinchi > div {
+    height: 26vh;
+    width: 100%;
+    border: 1px solid #797979;
+    text-align: center;
+}
+
+.on-tortinchi i {
+    font-size: 30px;
+    color: #B3BCCD;
+    margin-top: 15px;
+}
+
+.on-tortinchi h4 {
+    font-size: 18px;
+    opacity: 0.75;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.on-tortinchi p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #57647E;
+}
+
+/*Cover Letter*/
+.on-beshinchi + hr {
+    opacity: 0.3;
+}
+
+.on-beshinchi {
+    margin-top: 3.5rem;
+    margin-bottom: 1.3rem;
+}
+
+.on-beshinchi > label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.on-beshinchi > input {
+    width: 100%;
+    height: 150px;
+}
+
+.on-beshinchi > input:hover {
+    border-color: rgba(46, 105, 255, .5);
+    box-shadow: 0 0 0 2px rgba(46, 105, 255, .25);
+}
+
+
+/*Apply*/
+.on-oltinchi {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.on-oltinchi > button {
+    width: 180px;
+    height: 50px;
+    background-color: #1C1C1C;
+    color: rgb(235, 227, 227);
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.on-oltinchi > button:hover {
+    opacity: 0.9;
+}
+
